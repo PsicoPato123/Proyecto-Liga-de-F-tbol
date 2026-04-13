@@ -1,0 +1,6 @@
+1 Patox 1 1 0 0 5 4 1 3
+2 Emplumados F.C 1 0 0 1 4 5 -1 0
+3 VenGanza 0 0 0 0 0 0 0 0
+4 PsicoPatos 0 0 0 0 0 0 0 0
+5 Patosaurios 0 0 0 0 0 0 0 0
+6 Los Viudos 0 0 0 0 0 0 0 0
