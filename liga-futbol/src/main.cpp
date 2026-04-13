@@ -201,7 +201,7 @@
         std::ofstream fechas("fechas.txt",std::ios::app);    
         if (fechas){  
             fechas<<"Jornada "<<cont + 1<<std::endl;
-            fechas<<a<<"/"<<b<<"/"<<c<<" | "<<x<<" "<<"VS"<<" "<<y<<std::endl;
+            fechas<<a<<"|"<<b<<"|"<<c<<" | "<<x<<" "<<"VS"<<" "<<y<<std::endl;
             fechas<<"Fin de la jornada\n";
         } fechas.close();
         //Agregar al vector partidos
@@ -241,7 +241,7 @@
             if (x.P !=y.P) 
              return x.P > y.P; //Primero se evalua por empate de puntos 
 
-            if(x.DG==y.DG)
+            if(x.DG!=y.DG)
             return x.DG>y.DG; //Si estan los puntos empatados, ahora es diferencia de goles
 
             return x.GF > y.GF;//Finalmente, se evaluan los goles a favor y gana el de mayoría
