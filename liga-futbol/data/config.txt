@@ -1,17 +1,4 @@
 Liga huevito ^w^
-Equipos: 
-Ven-Ganza
-Los cuack.tro
-FC ducks
-Atlético Patito
-
-
-
-Puntitos: 
-Victoria= 3
-Empate= 1
-Perdida= 0 
-
 Equipos:
 Emplumados F.C
 VenGanza
@@ -19,6 +6,12 @@ PsicoPatos
 Patosaurios
 Patox
 Los Viudos
+
+Puntitos: 
+Victoria= 3
+Empate= 1
+Perdida= 0 
+
 
 
 
