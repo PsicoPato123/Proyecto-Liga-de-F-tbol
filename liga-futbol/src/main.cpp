@@ -404,11 +404,11 @@
     std::getline(config, leaguename);
     std::cout << leaguename << std::endl;
 } else {
-    std::cout << "No se pudo abrir config.txt\n";
+    std::cout << "No se pudo abrir config.txt\n"; //En caso de error al buscar el archivo de texto
 }
 config.close();
 
-    std::cout<<"Bienvenido al pati-menu ^w^ ⚽\n";
+    std::cout<<"Bienvenido al pati-menu ^w^ \n";
     do{
         std::cout<<"1. Ver equipos\n";
         std::cout<< "2. Registrar resultado de un partido  \n" ;   
